@@ -1,0 +1,26 @@
+import 'dart:io';
+void main()
+{
+  int a;
+  int b;
+  print("enter first number:");
+  a=int.parse(stdin.readLineSync()!);
+  print("enter second number:");
+  b=int.parse(stdin.readLineSync()!);
+  Swipe(a, b);
+}
+void Swipe(int num1,int num2){
+  print('Before swaping elements');
+  print(num1);
+  print(num2);
+    print('After swaping elements');
+  int c;
+  c=num1;
+  num1=num2;
+  num2=c;
+  print("$num1");
+  print(num2);
+
+  
+  
+}
